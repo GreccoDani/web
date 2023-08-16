@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* src/index.css */
+
+@keyframes floatUp {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes shadowPulse {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+  

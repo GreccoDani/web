@@ -1,0 +1,14 @@
+ /* src/index.css */
+
+/* Importa la fuente Poppins desde la carpeta de fuentes */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../ruta-hacia-la-carpeta-de-fuentes/Poppins-Regular.ttf') format('truetype');
+    /* Agrega más formatos (woff, woff2) si tienes disponibles */
+  }
+  
+  /* Aplica la fuente Poppins al cuerpo del documento */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
